@@ -60,10 +60,33 @@ let cursoNuevo = "javascript"
 const LISTA_PALABRAS = "gustos"
 
 // variables numericas 
-let suma: (4 + 6);
-let resta: (20 - 13);
-let multiplicacion: (4 * 3); 
-let division: (12/3);
+let librosMisterio = 4;
+let LibrosTerror = 6; 
+let librosAventura = 23;
+let totalLibros = 33;
+let suma =librosMisterio + LibrosTerror + librosAventura;
+console. log ("la suma de librosMisterio, librosTerror, LibrosAventura es:"+suma);
+let librosViejos= 13  
+let resta = totalLibros - librosViejos;
+console.log ("la resta de totalLibros, LibrosViejos es:" - resta);
 
+let librosEstanteUno= 20;
+let librosFilas= 4;
+let multiplicacion = librosEstanteUno * librosFilas; 
+console.log ("la multipricacion de LibrosEstanteUno por LibrosFilas es:"*multiplicacion);
+let division = librosEstanteUno / librosFilas; 
+console.log ("la division LibrosEstanteUno entre librosFilas es:"/division);
 
 // variables concatenadas 
+var instruccionJuego = "para jugar uno se necesitan al menos dos jugadore, para ello se necesita al menos dos personas y siete caratas por jugador"
+let publicidadSalud = "para estar sano, come frutas y verduras"
+var fraseInspiradora = " en cada persona existe una gran historia, cal es la tuya"
+let propossitoDelDia = "culplir mis objetivos, para tener exito y crecer"
+let pensamientoDiario = "siempre podemos mejorar, si lo deseamos"
+
+//Conversion de variables
+let nombreLetras = 9;
+let edad = "treinta y cinco"
+let hombreOMujer = false; 
+let fechaNacimiento = Boolean; 
+let MayorEdad = Boolean
